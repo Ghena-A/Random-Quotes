@@ -1,26 +1,30 @@
 body{
     display: block;
+    background-color: #cdbdf7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .conten{
-    background-color: #cdbdf7;
    text-align: center;
     padding-block: 15%;
  
     }
     h1{
-        font-size: 80px;
+        font-size: 60px;
         color: rgb(89, 22, 151);
     }
     p{
-        font-size: 35px;
+        font-size: 30px;
         color: rgb(89, 22, 151);
     }
     button {
         width: 250px;
         height: 80px;
         background-color: blueviolet;
-        color: #cdbdf7;
+        color: #f6f5f8;
+        outline: none;
+        border-radius: 10%;
     }
     button:hover{
         background-color: rgb(195, 43, 226);
+        behavior: initial;
     }
